@@ -4,4 +4,4 @@ FROM gcc:5.4
 COPY test.c /opt
 
 # Compile the test code
-RUN gcc -o /opt/test /opt/test.c
+RUN gcc -v -o /opt/test.bin /opt/test.c
